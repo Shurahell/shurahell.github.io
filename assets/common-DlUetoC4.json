@@ -1,0 +1,264 @@
+{
+  "landing": {
+    "navigation": {
+      "primary": "Primary navigation",
+      "home": "Home",
+      "projects": "Projects",
+      "stack": "Stack",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "hero": {
+      "role": "Web apps, AI, and games",
+      "motto": "My projects, from a school quiz to web apps and experiments with AI."
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "Web apps, AI experiments, and coursework. Open a project for screenshots and details.",
+      "total": "projects",
+      "screenshots": "screens",
+      "open": "Open project",
+      "projectLabel": "Project",
+      "close": "Close project window",
+      "openFullscreen": "Open screenshot fullscreen",
+      "closeFullscreen": "Close fullscreen viewer",
+      "fullscreenHint": "Click to open fullscreen",
+      "previousScreenshot": "Previous screenshot",
+      "nextScreenshot": "Next screenshot",
+      "selectScreenshot": "Select screenshot {{number}}",
+      "technologies": "Technologies",
+      "items": {
+        "vkoMonitoring": {
+          "title": "VKO Monitoring",
+          "category": "Infrastructure and monitoring",
+          "summary": "An internet quality monitoring system for schools across East Kazakhstan.",
+          "description": "A distributed platform collects connection metrics from school computers and turns them into a clear network map, incident log, and reporting workspace for responsible teams.",
+          "imageAlt": "VKO Monitoring system interface",
+          "highlights": {
+            "scope": "One dashboard for schools, devices, alerts, incidents, and analytical reports.",
+            "architecture": "React client, Node.js API, PostgreSQL, Socket.IO, and a dedicated system agent with an offline SQLite queue.",
+            "result": "Automated download, upload, ping, jitter, and packet-loss tests keep working through temporary outages."
+          }
+        },
+        "aiMediaWatch": {
+          "title": "AI Media Watch",
+          "category": "AI and media safety",
+          "summary": "A multimodal system that detects fraudulent content in social media videos.",
+          "description": "The platform accepts links and video streams from several sources, extracts speech, text, and visual signals, then produces an explainable risk assessment for casino, pyramid, and crypto scams.",
+          "imageAlt": "AI Media Watch analytics interface",
+          "highlights": {
+            "scope": "Manual uploads, a link queue, Telegram bot, and browser extension feed one review registry.",
+            "architecture": "React and Node.js coordinate a Python/FastAPI pipeline using Whisper, OCR, OpenCV, YOLO, and a local llama.cpp LLM.",
+            "result": "Users receive a verdict, threat level, and evidence breakdown instead of an opaque model response."
+          }
+        },
+        "myStrangeIdol": {
+          "title": "My Strange Idol",
+          "category": "Generative AI",
+          "summary": "A platform for text and voice conversations with AI characters.",
+          "description": "The interactive service lets users discover real and fictional characters, role-play with them, return to conversation history, and hear generated responses through voice playback.",
+          "imageAlt": "My Strange Idol platform interface",
+          "highlights": {
+            "scope": "Searchable tagged catalog, personal chats, message history, and voice mode.",
+            "architecture": "React, Node.js, Express, PostgreSQL, Sequelize, and Socket.IO extended with Ollama, Llama, and TTS.",
+            "result": "A continuous character experience from discovery to long-form conversation with retained context."
+          }
+        },
+        "eda": {
+          "title": "EDA: Student Performance",
+          "category": "Data analysis",
+          "summary": "An exploration of how student lifestyle factors relate to academic performance.",
+          "description": "This Jupyter study covers the full exploratory workflow for a synthetic dataset of 1,000 students and 15 features: data quality, distributions, feature preparation, and relationships between habits and results.",
+          "imageAlt": "Student data exploratory analysis notebook",
+          "highlights": {
+            "scope": "Sleep, attendance, physical activity, social media, diet, stress, and final grades.",
+            "architecture": "Python, pandas, NumPy, Matplotlib, and Seaborn in a reproducible Jupyter Notebook.",
+            "result": "Prepared features, correlation analysis, and clear visualizations provide a base for further modeling."
+          }
+        },
+        "airportSystem": {
+          "title": "Airport System",
+          "category": "Transport system",
+          "summary": "An airport web system with a flight board, ticket purchase, and passenger check-in.",
+          "description": "The project brings passenger journeys and administrative operations together: flight lookup, ticketing, registration, boarding-pass issuance, and role-based data management.",
+          "imageAlt": "Airport system interface",
+          "highlights": {
+            "scope": "Live flight board, passengers, tickets, check-in, boarding passes, and administrative roles.",
+            "architecture": "React and Material UI on the client, with Node.js, Express, PostgreSQL, and Sequelize on the server.",
+            "result": "The main stages of passenger service are connected in one consistent digital flow."
+          }
+        },
+        "mathematicalAnalysis": {
+          "title": "Mathematical Analysis",
+          "category": "Educational application",
+          "summary": "An interactive electronic guide to the foundations of mathematical analysis.",
+          "description": "This desktop learning navigator organizes theory into focused sections and helps learners move step by step through the key topics of mathematical analysis.",
+          "imageAlt": "Mathematical analysis electronic guide",
+          "highlights": {
+            "scope": "Sets, complex numbers, numerical sequences, limits, function limits, and differentiation.",
+            "architecture": "A standalone desktop application built with Clickteam Fusion Developer+.",
+            "result": "Six learning sections are presented in an accessible interactive format with simple navigation."
+          }
+        },
+        "cargoTransportation": {
+          "title": "Cargo Transportation",
+          "category": "Logistics",
+          "summary": "A cargo booking and tracking system with route and delivery-cost calculation.",
+          "description": "The logistics platform helps create orders, calculate delivery parameters, follow shipment status, and manage connected data through one web interface.",
+          "imageAlt": "Cargo transportation system interface",
+          "highlights": {
+            "scope": "Orders, routes, delivery costs, shipment statuses, and cargo tracking.",
+            "architecture": "React, MobX, RSuite, and i18n on the client; Node.js, Express, PostgreSQL, Sequelize, and JWT on the server.",
+            "result": "Core logistics operations are combined into a clear bilingual workflow."
+          }
+        },
+        "schoolProject": {
+          "title": "School Project",
+          "category": "Game project",
+          "summary": "A humorous computer-science quiz made as a gift for a school teacher.",
+          "description": "This small standalone game combines pixel visuals, computer-science questions, and personal humor. It was created for graduation as a memorable interactive present.",
+          "imageAlt": "School Project pixel-art quiz",
+          "highlights": {
+            "scope": "Themed questions, game screens and a custom visual style.",
+            "architecture": "A standalone desktop application built in Clickteam Fusion Developer.",
+            "result": "An early completed game experiment that turned a learning task into something personal."
+          }
+        }
+      }
+    },
+    "about": {
+      "title": "About me",
+      "description": "Hackathons, teamwork, and the challenges I have worked on.",
+      "events": "hackathons",
+      "goal": "Goal",
+      "theme": "Theme",
+      "source": "About the hackathon",
+      "hackathons": {
+        "afm": {
+          "title": "AFM AI Hackathon 2026",
+          "meta": "Almaty · June 24–25, 2026",
+          "goal": "Build practical digital solutions for countering economic and financial crime.",
+          "theme": "Artificial intelligence, financial security, OSINT, cybersecurity, and illegal-content detection."
+        },
+        "hackAlem": {
+          "title": "HackAlem AI",
+          "meta": "Astana · September 23, 2026",
+          "goal": "Create a useful AI solution within a limited time and present it to technology experts.",
+          "theme": "Agentic AI, autonomous intelligent systems, prototyping with Codex, and collaborative AI development."
+        },
+        "codeMasters": {
+          "title": "CodeMasters Hackathon 7.0",
+          "meta": "Oskemen · September 15–22, 2026",
+          "goal": "Turn an idea and a real-world case into a working IT product with support from a team and mentors.",
+          "theme": "Product development, startup thinking, design, analytics, and applied IT challenges."
+        },
+        "decentrathon": {
+          "title": "Decentrathon 6.0",
+          "meta": "Oskemen · October 30–31, 2026",
+          "goal": "Build a solution to a partner company's challenge and submit the project to a technical jury.",
+          "theme": "Practical IT challenges from businesses. Specific cases will be announced when the hackathon starts."
+        }
+      }
+    },
+    "contact": {
+      "title": "Let's connect",
+      "description": "Have an idea or a question? Choose where you would like to talk.",
+      "status": "Open to new projects",
+      "selectedChannel": "Contact channel",
+      "hint": "Press a key to get in touch",
+      "copied": "Discord username copied",
+      "copyFailed": "Could not copy. Select and copy the username above.",
+      "channels": {
+        "telegram": {
+          "description": "For questions, ideas, and project discussions",
+          "action": "Send a message"
+        },
+        "gmail": {
+          "description": "For detailed proposals and emails",
+          "action": "Send an email"
+        },
+        "github": {
+          "description": "My code and repositories",
+          "action": "Open profile"
+        },
+        "discord": {
+          "description": "For conversations and working together",
+          "action": "Copy username"
+        },
+        "steam": {
+          "description": "If you would like to play together",
+          "action": "Open profile"
+        }
+      }
+    },
+    "techStack": {
+      "title": "Technology stack",
+      "constellationTitle": "Technology constellation",
+      "description": "Tools I use and learn. Select a star to see what I use that technology for.",
+      "hint": "Select any star",
+      "backToConstellation": "Back to constellation",
+      "all": "All",
+      "selectTechnology": "Explore {{name}}",
+      "related": "Related tools",
+      "projectsTitle": "In my projects",
+      "portfolioProject": "This portfolio",
+      "noProjects": "I used this technology in university classes and coursework.",
+      "overviewTitle": "Where shall we start?",
+      "overviewDescription": "Select a technology on the map or a category above. Its description and examples from my projects will appear here.",
+      "connectionsLabel": "Lines connect complementary tools",
+      "detailsLabel": "About the technology",
+      "officialSource": "Open official source",
+      "stats": {
+        "technologies": "technologies",
+        "systems": "categories"
+      },
+      "groups": {
+        "frontend": {
+          "title": "Frontend",
+          "caption": "Interfaces and interaction"
+        },
+        "backend": {
+          "title": "Backend",
+          "caption": "Services, APIs, and storage"
+        },
+        "ai": {
+          "title": "AI",
+          "caption": "Models and machine learning"
+        },
+        "data": {
+          "title": "Data",
+          "caption": "Analysis, computation, and charts"
+        },
+        "creative": {
+          "title": "Creative",
+          "caption": "Games and interactive apps"
+        }
+      },
+      "technologyDescriptions": {
+        "typescript": "Adds types to JavaScript to check contracts and catch errors before runtime.",
+        "react": "Builds interactive interfaces from reusable components.",
+        "nextjs": "Extends React with routing, server rendering, and features for web applications.",
+        "vite": "Provides a fast development environment and builds web applications.",
+        "mui": "Provides React components and theming for consistent interfaces.",
+        "axios": "Handles HTTP requests and API responses.",
+        "reactBits": "Provides animated React components for expressive interfaces.",
+        "nodejs": "Runs JavaScript outside the browser for servers, APIs, and development tools.",
+        "express": "Provides routing and request handlers for Node.js APIs.",
+        "postgresql": "Stores relational data with SQL queries and transaction support.",
+        "openai": "Provides AI models and APIs for text, images, and audio.",
+        "ollama": "Simplifies running and using language models on a local device.",
+        "llamaCpp": "Runs language models across different hardware using C and C++.",
+        "pytorch": "Provides tensor computation and tools for training neural networks.",
+        "tensorflow": "Helps build, train, and deploy machine learning models.",
+        "scikitLearn": "Provides data preparation, classification, regression, and model evaluation tools.",
+        "python": "Brings automation, data analysis, and machine learning together in one language.",
+        "numpy": "Provides computation with multidimensional arrays and numerical data.",
+        "scipy": "Supports scientific computing with optimization, statistics, and signal processing algorithms.",
+        "pandas": "Helps clean, transform, and explore tabular data.",
+        "matplotlib": "Creates customizable charts and data visualizations in Python.",
+        "seaborn": "Visualizes statistical relationships using Matplotlib.",
+        "clickteam": "Builds games and interactive applications through visual events."
+      }
+    }
+  }
+}
